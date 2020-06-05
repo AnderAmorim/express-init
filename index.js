@@ -5,8 +5,9 @@ app.get('/',(req,res)=>{
   res.send('My first router')
 })
 
-app.get("/blog",(req,res)=>{
-  res.send("Welcome to my blog")
+app.get("/ola/:nome",(req,res)=>{
+  const {nome} = req.params;
+  res.send(`<h1>${nome}!</h1>`);
 })
 
 const port = 4000;
