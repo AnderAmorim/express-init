@@ -1,0 +1,22 @@
+{
+  "name": "express-init",
+  "version": "1.0.0",
+  "description": "Estudos com express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnderAmorim/express-init.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AnderAmorim/express-init/issues"
+  },
+  "homepage": "https://github.com/AnderAmorim/express-init#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
